@@ -44,14 +44,12 @@ console.log(result)
 
 //4 Задание
 
-const firstName = 'Rozalina'
-const lastName = 'Zinnurova'
+const fullNameFunction = ( firstName , lastName ) => {
+    const fullName = ` ${firstName} ${lastName}`;
+    console.log (fullName);
+};
 
-function fullName() {
-    const fullName = `${firstName} ${lastName}`;
-    console.log(fullName);
-}
- fullName()
+fullNameFunction('Розалина' , 'Зиннурова');
 
  //5 Задание
 
